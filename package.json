@@ -22,8 +22,7 @@
     "lint": "eslint app addon tests config"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0",
-    "ember-cli-version-checker": "^2.0.0"
+    "ember-cli-babel": "^8.2.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -43,7 +42,7 @@
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
-    "ember-source": "~2.18.0",
+    "ember-source": "~2.12.0",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3"
@@ -53,5 +52,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
